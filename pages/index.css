@@ -52,13 +52,6 @@
   color:#000000;
 }
 
-.header__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
-
 .header__title {
   max-width: 709px;
   margin-top: 183px;
