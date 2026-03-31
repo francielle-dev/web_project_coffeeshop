@@ -1,0 +1,65 @@
+.header {
+  background-image: url(/images/background_header.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  box-sizing: border-box;
+  position: relative;
+}
+.header__title {
+  max-width: 709px;
+  margin-top: 183px;
+  margin-left: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+}
+
+.header__description {
+max-width: 683px;
+margin-top: 28px;
+margin-left: 80px;
+font-family: "Noto Serif";
+font-size: 20px;
+line-height: 30px;
+}
+
+.header__image {
+  max-width: 646px;
+  position: absolute;
+  bottom: 124px;
+  right: 5px;
+ }
+
+ .header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top:auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  align-items: flex-end;
+
+ }
+
+ .header__paragraph {
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 20px;
+  color: #6F6F6F;
+ }

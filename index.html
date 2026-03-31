@@ -10,10 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./favicon.ico">
 </head>
@@ -26,7 +23,7 @@
     <ul class="nav__links">
       <li><a class="nav__link" href="#recipes">Receitas</a></li>
       <li><a class="nav__link" href="#reservation">Reservar uma mesa</a></li>
-      <li><a class="nav__link" href="#">Contatos</a></li>
+      <li><a class="nav__link" href="#contacts">Contatos</a></li>
     </ul>
     </nav>
       <h1 class="header__title">
@@ -86,8 +83,21 @@
 
     </section>
   </main>
-  <footer class="footer">
-
+  <footer class="footer" id="contacts">
+    <div class="footer__circle"></div>
+    <div class="footer__content">
+      <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="Logo Triple Expresso"/>
+      <div class="footer__social">
+        <p class="footer__social-heading">Mídia social</p>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Logo Facebook" /><a class="footer__social-link" href="https://facebook.com" target="_blank">Facebook</a></li>
+          <li class="footer__list-item">
+            <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Logo instagram" /><a class="footer__social-link" href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copyright">© 2024 Francielle Alves</p>
   </footer>
 </div>
 </body>
